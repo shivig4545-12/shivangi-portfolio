@@ -18,7 +18,7 @@ export function EducationSection() {
         <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           Education
         </h2>
-        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-1 gap-12 max-w-4xl mx-auto">
           {education.map((edu, idx) => (
             <div key={idx} className="bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm border-white/20 dark:border-gray-700/50 rounded-lg shadow-lg p-8 transition-all duration-300 hover:scale-105">
               <h3 className="text-2xl font-semibold mb-2 text-gray-800 dark:text-gray-200">{edu.degree}</h3>
