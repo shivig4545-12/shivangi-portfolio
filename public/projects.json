@@ -1,0 +1,334 @@
+{
+  "categories": ["Web App", "Mobile App", "API", "Web-Scraping", "All"],
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution with modern UI and secure payment processing.",
+      "fullDescription": "A comprehensive e-commerce backend platform built with Node.js, MySql. Features include user authentication, product catalog, shopping cart, order management. The platform also includes an admin dashboard for inventory management and analytics.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      "category": "API",
+      "technologies": ["Node.js", "MySql", "Knex"],
+      "githubUrl": "https://github.com/chandan28Sahoo/Turing_ECommerce",
+      "features": [
+        "User authentication and authorization",
+        "Product catalog with search and filtering",
+        "Shopping cart and checkout process",
+        "Order tracking and management",
+        "Admin dashboard with analytics"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates and team features.",
+      "fullDescription": "A robust RESTful API service built with Node.js and Express, featuring JWT authentication, rate limiting, input validation, and comprehensive API documentation. Designed for scalability and security with proper error handling and logging.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
+      "category": "API",
+      "technologies": ["Express", "Mysql", "knex"],
+      "githubUrl": "https://github.com/chandan28Sahoo/Todo_app",
+      "features": [
+        "RESTful API for task and project management",
+        "Authentication and role-based access control",
+        "MySQL database integration using Knex.js",
+        "Robust error handling and input validation",
+        "Modular and scalable code architecture",
+        "API endpoints for team collaboration features",
+        "Secure user sessions and token-based authentication"
+      ]            
+    },
+    {
+      "id": "3",
+      "title": "Weather Web",
+      "description": "A beautiful weather app with location-based forecasts and interactive maps.",
+      "fullDescription": "A cross-platform mobile weather application built with React Native. Features location-based weather forecasts, interactive weather maps, severe weather alerts, and a clean, intuitive user interface optimized for mobile devices.",
+      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+      "category": "API",
+      "technologies": ["React", "OpenWeather API", "Maps SDK"],
+      "liveUrl": "https://apps.apple.com/weather-app",
+      "githubUrl": "https://github.com/chandan28Sahoo/weather_app",
+      "features": [
+        "Location-based weather data",
+        "7-day weather forecast",
+        "Interactive weather maps",
+        "Severe weather alerts"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "RESTful API Service",
+      "description": "A scalable REST API with authentication, rate limiting, and comprehensive documentation.",
+      "fullDescription": "A robust RESTful API service built with Node.js and Express, featuring JWT authentication, rate limiting, input validation, and comprehensive API documentation. Designed for scalability and security with proper error handling and logging.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
+      "category": "API",
+      "technologies": ["Node.js", "Express", "JWT", "Swagger", "Redis", "Docker"],
+      "githubUrl": "https://github.com/johndoe/api-service",
+      "features": [
+        "JWT-based authentication",
+        "Rate limiting and throttling",
+        "Input validation and sanitization",
+        "Comprehensive API documentation",
+        "Error handling and logging",
+        "Docker containerization"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Portfolio Website",
+      "description": "A responsive portfolio website with modern animations and dark mode support.",
+      "fullDescription": "A modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode support, contact form integration, and optimized performance. Designed to showcase projects and skills in an elegant, professional manner.",
+      "image": "/portfolio.png",
+      "category": "Web App",
+      "technologies": ["React", "Tailwind CSS", "Framer Motion", "EmailJS"],
+      "liveUrl": "https://portfoliochandan03.netlify.app",
+      "githubUrl": "https://github.com/SahooChandan03/portfolio",
+      "features": [
+        "Responsive design",
+        "Dark/light mode toggle",
+        "Smooth scroll animations",
+        "Contact form integration",
+        "SEO optimization",
+        "Fast loading performance"
+      ]
+    },
+    {
+        "id": "6",
+        "title": "Playback Health Platform",
+        "description": "A secure, AI-driven platform to enhance clinical documentation, patient engagement, and knowledge sharing.",
+        "fullDescription": "Playback Health empowers healthcare providers to capture, curate, and share personalized medical media—like video, audio, images, and text—at the point of care. The platform features ambient AI-powered transcription and clinical note generation, EMR integration, patient portals, and secure sharing, dramatically reducing documentation time and improving patient comprehension.",
+        "image": "/playback.png",
+        "category": ["Web App", "Mobile App"],
+        "personal" : false,
+        "technologies": ["React", "Node.js", "Web Audio API", "AI/ML", "HIPAA‑compliant Cloud"],
+        "liveUrl": "https://www.playbackhealth.com/",
+        "features": [
+          "Ambient AI Scribe: real-time transcriptions from clinician‑patient conversations using AI ambient listening :contentReference[oaicite:2]{index=2}",
+          "Automated clinical documentation: converts conversations into EMR‑ready notes in seconds, saving ~3 hrs per day :contentReference[oaicite:3]{index=3}",
+          "Multimedia medical media: record & share videos, audio, images, lab results, and discharge instructions :contentReference[oaicite:4]{index=4}",
+          "Patient engagement: secure, shareable patient portal enabling playback of custom content anytime, anywhere :contentReference[oaicite:5]{index=5}",
+          "Automated patient journey workflows: follow‑up summaries, templates, and journey logging :contentReference[oaicite:6]{index=6}",
+          "EMR integration: seamless writeback, copy‑paste, and connectivity with Epic, Cerner, Allscripts, etc. :contentReference[oaicite:7]{index=7}",
+          "HIPAA‑compliant and secure: enterprise-grade encryption, HITRUST, SOC‑2, multi‑tenant support :contentReference[oaicite:8]{index=8}",
+          "White‑label & customizable: customizable branding, templates, and over 50 enterprise integrations :contentReference[oaicite:9]{index=9}",
+          "Mobile & web access: available on iOS, Android, and browser dashboards :contentReference[oaicite:10]{index=10}",
+          "Ambient note templates: built-in and editable SOAP/GIRP/After‑Visit Summary templates :contentReference[oaicite:11]{index=11}"
+        ]
+    },
+    {
+      "id": "7",
+      "title": "Zomato Web Scraper",
+      "description": "A Python-based web scraper to extract restaurant data from Zomato's Delhi listings.",
+      "fullDescription": "A Python web scraping project that uses Selenium to automate the extraction of restaurant details from Zomato for the Delhi region. The scraper collects information such as restaurant names, ratings, addresses, and cuisines. The extracted data is structured and saved into a JSON file for further analysis or integration with other applications.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "category": "Web-Scraping",
+      "technologies": ["Python", "Selenium", "BeautifulSoup", "JSON"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/chandan28Sahoo/zometo_scraping_with_selenium",
+      "features": [
+        "Automated data extraction from Zomato's Delhi restaurant listings",
+        "Browser automation using Selenium WebDriver",
+        "Scrapes restaurant names, ratings, addresses, and cuisines",
+        "Stores scraped data in a clean JSON format",
+        "Headless browser support for background scraping",
+        "Handles dynamic content loading and delays",
+        "Modular Python codebase for easy maintenance and scaling"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "IMDb Web Scraper",
+      "description": "A Python script to scrape movie data from IMDb using BeautifulSoup and export it to JSON.",
+      "fullDescription": "A lightweight web scraping project built with Python and BeautifulSoup to collect movie details from IMDb. The script extracts information such as movie titles, ratings, release years, and genres from specified IMDb pages. The scraped data is organized and saved into a JSON file for further use in analysis, dashboards, or educational datasets.",
+      "image": "https://t4.ftcdn.net/jpg/06/13/48/07/360_F_613480771_B8E7z1J7TYBOD1XVZJhzgO28H7AY8dCl.jpg",
+      "category": "Web-Scraping",
+      "technologies": ["Python", "BeautifulSoup", "JSON"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/chandan28Sahoo/IMDB_web_scraping",
+      "features": [
+        "Scrapes movie details like title, rating, genre, and release year",
+        "HTML parsing using BeautifulSoup",
+        "Stores extracted data into a structured JSON file",
+        "Lightweight, dependency-minimal Python script",
+        "Supports scraping from multiple IMDb listing pages",
+        "Handles network delays and request errors",
+        "Easily extensible for additional metadata (cast, reviews, etc.)"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Bangalore Colleges Web Scraper",
+      "description": "A Python script to scrape college information from a Bangalore college directory website.",
+      "fullDescription": "A web scraping tool built with Python and BeautifulSoup to extract college-related data from websites listing institutions in Bangalore. The script collects essential details such as college name, location, type (private/government), and courses offered. The output is saved as a structured JSON file, useful for research, educational platforms, or career guidance tools.",
+      "image": "https://www.iesonline.co.in/colleges-image/top-colleges-in-bangalore.jpg",
+      "category": "Web-Scraping",
+      "technologies": ["Python", "Selenium", "BeautifulSoup", "JSON"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/chandan28Sahoo/Scraping_BangaloreColleges",
+      "features": [
+        "Scrapes college names, locations, and course details",
+        "Built with BeautifulSoup for efficient HTML parsing",
+        "Exports data into a clean and structured JSON file",
+        "Handles pagination and dynamic page structures",
+        "Lightweight and easy to configure for different sources",
+        "Ideal for education research and academic listings",
+        "Modular Python code for scalability and reuse"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Pune Colleges Web Scraper",
+      "description": "A Python-based scraper for extracting college data from Pune-focused education directories.",
+      "fullDescription": "A web scraping script developed in Python using BeautifulSoup to gather information about colleges located in Pune. The scraper captures key details such as college name, location, affiliation, and available courses. All extracted data is saved into a structured JSON file, suitable for educational analysis, platforms, or student guidance tools.",
+      "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&h=400&fit=crop",
+      "category": "Web-Scraping",
+      "technologies": ["Python", "Selenium", "BeautifulSoup", "JSON"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/chandan28Sahoo/scrapingPune_colleges",
+      "features": [
+        "Scrapes Pune-based college listings and essential details",
+        "Efficient HTML parsing using BeautifulSoup",
+        "Outputs data in a clean JSON format",
+        "Handles multiple pages and dynamic elements",
+        "Easily customizable for other cities or data points",
+        "Simple structure with modular, readable Python code",
+        "Useful for academic platforms, student tools, and research"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "IPL T20 Web Scraper",
+      "description": "A Node.js-based web scraper that extracts IPL match data and serves it via Express APIs.",
+      "fullDescription": "This project scrapes live or historical IPL T20 data from the web using Node.js and Cheerio. It extracts details such as team names, scores, match results, and other statistics. The data is served through RESTful APIs built with Express, making it accessible for frontend applications, dashboards, or analysis tools. Ideal for cricket fans, developers, or analysts wanting to work with IPL data.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/512px-Indian_Premier_League_Official_Logo.svg.png",
+      "category": "Web-Scraping",
+      "technologies": ["Node.js", "Cheerio", "Express", "Request"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/chandan28Sahoo/IPL_T20_SCRAPING_WITH_NODEJS",
+      "features": [
+        "Scrapes IPL match data: team names, scores, results",
+        "Uses Cheerio for fast and flexible HTML parsing",
+        "HTTP requests handled using the Request module",
+        "RESTful API endpoints built with Express.js",
+        "Supports JSON responses for frontend integration",
+        "Auto-reload during development with Nodemon",
+        "Modular architecture for easy extension and updates"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Buzzapp‑Style School CRM App",
+      "description": "An enterprise-grade SaaS application to manage school admissions, marketing, and stakeholder engagement.",
+      "fullDescription": "A full-stack web application (Node.js/Express or Python/Django) inspired by Buzzapp, designed for educational institutions to automate student admissions, manage leads, and streamline communication. Features include lead generation, CRM modules, task & appointment management, analytics dashboard, admission forms, and in-app communication, available via web and mobile interfaces.",
+      "image": "https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84006931465/original/2uYeCuyXdjhceyBRunke-ix0ApxZr10X6w.png?1654238358",
+      "category": "Web App",
+      "personal": false,
+      "liveUrl": "https://buzzapp.app/",
+      "technologies": ["Node.js", "Express", "React", "MySQL", "JWT", "Socket.io"],
+      "features": [
+        "Lead acquisition & automation: custom web/mobile landing pages for parent sign‑ups",
+        "Advanced analytics & insights dashboard for admissions and marketing performance",
+        "School listing & profile management",
+        "Smart lead management with tagging, hot‑lead detection & bulk CSV import",
+        "Referral reward engine & cashback coupon integrations",
+        "In‑app communication center: chat, audio & video calls with stakeholders",
+        "Appointment & task scheduler for admissions team",
+        "Digital storyboard: publish school activities and updates",
+        "Customizable admission forms with fee payment integration",
+        "QR‑based scan & go paperless enquiry capture",
+        "Role‑based access control for admin, staff, and multiple school accounts",
+        "Inline task management linked with CRM activities",
+        "Mobile‑responsive frontend (React) with native‑like mobile app support"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "5ireScan Blockchain Explorer",
+      "description": "A real-time blockchain explorer and analytics dashboard for the 5ireChain network.",
+      "fullDescription": "5ireScan is a full-featured block explorer for the 5ireChain blockchain. Built to provide comprehensive visibility, it aggregates on-chain metrics, transaction history, and smart contract data. The dashboard also tracks 5ireCoin price, market cap, supply statistics, and validator/node performance—offering both investors and developers deep insights into the network’s health and activity.",
+      "image": "https://pbs.twimg.com/media/GSitqjjXkAAaRSv.jpg",
+      "category": "Web App",
+      "personal": false,
+      "technologies": ["React", "Node.js", "Express", "Web3.js", "Chart.js"],
+      "liveUrl": "https://5irescan.io/dashboard",
+      "features": [
+        "Real-time on-chain metrics: block time, total transactions, latest block",
+        "Interactive transaction history charts with era/epoch timelines",
+        "Live 5ireCoin price, market cap, and circulating supply analytics",
+        "Validator & node explorer with global distribution details",
+        "Block and transaction detail pages: includes hashes, timestamps, gas, extrinsics, events",
+        "Wallet address insights: balance, USD value, transaction list, token holdings",
+        "Token & contract explorer: ERC‑20 token tracking and smart contract verification data",
+        "EVM & WASM chain support with network switcher",
+        "Gas tracker page to monitor live gas prices and top fee‑consuming contracts",
+        "Add 5ireChain network to MetaMask directly from dashboard"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "5ireCoin Migration Platform",
+      "description": "A web app enabling users to migrate their 5IRE tokens from Ethereum to the 5ireChain mainnet.",
+      "fullDescription": "A React/Node.js-built dashboard that empowers token holders to seamlessly claim and migrate their 5IRE tokens from Ethereum to the 5ireChain mainnet. The platform integrates wallet connectivity, wallet balance display, partial or full token claiming, and real-time migration status updates, all without storing users’ private keys.",
+      "image": "/migration.png",
+      "category": "Web App",
+      "technologies": ["React", "Node.js", "Express", "Web3.js", "MetaMask"],
+      "liveUrl": "https://migration.5ire.network/",
+      "personal": false,
+      "features": [
+        "MetaMask‑based wallet connection and authentication",
+        "Displays Ethereum‑chain 5IRE token balance eligible for migration",
+        "Supports partial or full token claim to 5ireChain mainnet address",
+        "On‑chain transaction confirmation with migration status feedback",
+        "Secure architecture with no private key storage",
+        "Frontend built with React and Web3.js, backend Node.js/Express",
+        "Responsive UI with live balance and transaction receipt updates",
+        "Integrated wallet address mapping: Ethereum → 5ireChain mainnet"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Finay Musical NFT Dashboard",
+      "description": "A Next‑gen dashboard for discovering, managing, and trading Music NFTs on the Finay platform.",
+      "fullDescription": "Built to support Finay's QA and user‑testing environments, this dashboard allows users to browse featured album releases, upcoming events, top artists, and marketplace trends. Key features include interactive charts, live marketplace feeds, user profile management, and seamless navigation between community, explore, and support modules.",
+      "image": "/finay.png",
+      "category": ["Web App", "Mobile App"],
+      "personal": false,
+      "technologies": ["React", "Node.js", "Express", "Chart.js", "REST API", "MetaMask", "Socket.io"],
+      "liveUrl": "https://qa-user.finay.com/home",
+      "features": [
+        "Featured Albums & Artists carousel with rich metadata",
+        "Trending NFT events and upcoming drops display",
+        "Interactive marketplace feed: price, creator, rarity filters",
+        "Performance charts for views, bids, and sales over time",
+        "User profile panel: holdings, collectibles, activity history",
+        "Responsive navigation: Home • Community • Explore • Support",
+        "Admin QA tools: simulate edge cases, toggle releases, seed test data",
+        "Support center integration for quick issue reporting",
+        "Seamless RESTful API backend for real-time data sync",
+        "Authentication and QA-only environment routing"
+      ]
+    },
+    {
+        "id": "16",
+        "title": "DineOrder Web & Mobile Ordering Platform",
+        "description": "A full-stack SaaS solution for online food ordering and point-of-sale integration.",
+        "fullDescription": "DineOrder is a cloud-based ordering platform empowering restaurants and takeaways to accept online orders via website and mobile apps, integrated with an EPOS system. It offers end-to-end delivery management, driver tracking, inventory control, and marketing tools—all without commission. Vendors can manage menus, orders, payments, and analytics through a unified dashboard.",
+        "image": "https://graph.facebook.com/1444147882487076/picture?type=large",
+        "category": ["Web App", "Mobile App"],
+        "personal" : false,
+        "technologies": ["Node.js", "Express", "React", "MySQL", "Socket.io", "Payment Gateway"],
+        "liveUrl": "https://dineorder.com/",
+        "features": [
+          "Online ordering via responsive website and branded iOS/Android apps",
+          "Integrated EPOS (Point‑of‑Sale) terminal with touch interface and caller‑ID support",
+          "Inventory & recipe management, with automated discount and loyalty rule engine",
+          "Driver management & live tracking app with route optimization and geofencing",
+          "Real-time order updates: sound alerts, prints, notifications, SMS & email confirmations",
+          "Cloud-based reporting dashboard with charts for sales, orders, inventory, performance",
+          "Customer engagement tools: coupons, SMS/email marketing, loyalty rewards",
+          "Commission-free business model with flat weekly fees and seamless payment gateway integration",
+          "Multi-printer support (kitchen, receipt), table booking and franchise capabilities",
+          "Branded mobile apps included with platform, enhancing customer reach"
+        ]
+    }      
+  ]
+} 
