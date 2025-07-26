@@ -240,59 +240,88 @@ export function ProjectsSection() {
     </h2>
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      {[
-        {
-          title: "Catalog Product Project",
-          details: [
-            "Worked on a Node.js-based web app for user authentication, user management, translation management, and notifications.",
-            "Contributed to clean code, modular design, testing, and delivery under senior mentorship.",
-          ],
-        },
-         {
-          title: "Clover POS Integration Project",
-          details: [
-            "Integrated Clover APIs for merchant onboarding, order/payment, and menu sync.",
-            "Built full auth system: login, signup, reset password, logout with JWT.",
-            "Sent OTPs via Nodemailer and SMS via Twilio with webhook-based payment flow.",
-          ],
-        },
-        {
-          title: "Tej Project",
-          details: [
-            "Built a full-stack React.js + Node.js application with authentication, campaign creation, and location-based services.",
-            "Developed payment integration and campaign logic under mentorship.",
-          ],
-        },
-        {
-          title: "HRMS Project",
-          details: [
-            "Built an HRMS in React.js, Tailwind CSS, and Material UI for attendance and approval tracking.",
-            "Implemented department-based filters and contributed to UI/UX.",
-          ],
-        },
-        {
-          title: "Tradnix Project",
-          details: [
-            "Improved e-commerce UX by integrating Twilio API for WhatsApp invoices.",
-            "Used Nodemailer for dynamic email notifications on orders and promotions.",
-          ],
-        },
-        {
-          title: "Klimart Project",
-          details: [
-            "Created a real-estate inventory system using Node.js and React.js.",
-            "Streamlined building info, contractor management, and inventory tracking.",
-          ],
-        },
-        {
-          title: "Rolling Notes Project",
-          details: [
-            "Built a modular React app for ads, institutes, notes, footer, and dynamic headers.",
-            "Integrated PDF viewer with modals and tags for rich reading experience.",
-          ],
-        }
-       
-      ].map((project, index) => (
+      {
+      // [
+      //   {
+      //     title: "Catalog Product Project",
+      //     details: [
+      //       "Worked on a Node.js-based web app for user authentication, user management, translation management, and notifications.",
+      //       "Contributed to clean code, modular design, testing, and delivery under senior mentorship.",
+      //     ],
+      //   },
+      //    {
+      //     title: "Clover POS Integration Project",
+      //     details: [
+      //       "Integrated Clover APIs for merchant onboarding, order/payment, and menu sync.",
+      //       "Built full auth system: login, signup, reset password, logout with JWT.",
+      //       "Sent OTPs via Nodemailer and SMS via Twilio with webhook-based payment flow.",
+      //     ],
+      //   },
+      //   {
+      //     title: "Tej Project",
+      //     details: [
+      //       "Built a full-stack React.js + Node.js application with authentication, campaign creation, and location-based services.",
+      //       "Developed payment integration and campaign logic under mentorship.",
+      //     ],
+      //   },
+      //   {
+      //     title: "HRMS Project",
+      //     details: [
+      //       "Built an HRMS in React.js, Tailwind CSS, and Material UI for attendance and approval tracking.",
+      //       "Implemented department-based filters and contributed to UI/UX.",
+      //     ],
+      //   },
+      //   {
+      //     title: "Tradnix Project",
+      //     details: [
+      //       "Improved e-commerce UX by integrating Twilio API for WhatsApp invoices.",
+      //       "Used Nodemailer for dynamic email notifications on orders and promotions.",
+      //     ],
+      //   },
+      //   {
+      //     title: "Klimart Project",
+      //     details: [
+      //       "Created a real-estate inventory system using Node.js and React.js.",
+      //       "Streamlined building info, contractor management, and inventory tracking.",
+      //     ],
+      //   },
+      //   {
+      //     title: "Rolling Notes Project",
+      //     details: [
+      //       "Built a modular React app for ads, institutes, notes, footer, and dynamic headers.",
+      //       "Integrated PDF viewer with modals and tags for rich reading experience.",
+      //     ],
+      //   }   
+      // ]
+      [
+  {
+    title: "Clover POS Integration Project",
+    details: [
+      "Built OAuth onboarding flow: connect, callback, and merchant sync.",
+      "Fetched and synced merchant items, menus, and restaurant orders.",
+      "Implemented order payment system using Clover’s Payments API.",
+    ],
+  },
+  {
+    title: "Catalog Product Project",
+    details: [
+      "Developed Node.js modules for user auth, translation, and notifications.",
+      "Contributed to backend user and role management workflows.",
+      "Wrote unit-tested code and collaborated with senior devs to meet deadlines.",
+    ],
+  },
+  {
+    title: "Tej Project",
+    details: [
+      "Built React + Node.js platform with user login and location-aware services.",
+      "Created campaign module with payments using third-party APIs.",
+      "Followed agile practices under guidance to ensure scalable delivery.",
+    ],
+  },
+]
+
+      
+      .map((project, index) => (
         <div
           key={index}
           className="bg-white dark:bg-gray-900 shadow-lg rounded-xl p-6 transform transition duration-500 hover:scale-105 animate-fade-in-up"
